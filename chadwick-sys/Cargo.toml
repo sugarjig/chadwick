@@ -1,0 +1,15 @@
+[package]
+name = "chadwick-sys"
+version = "0.1.0"
+edition = "2021"
+links = "chadwick"
+license = "GPL-2.0-or-later"
+description = "Raw FFI bindings to the Chadwick C library"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.71"
+pkg-config = "0.3"
+vcpkg = "0.2"

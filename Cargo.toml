@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "chadwick-sys",
+    "chadwick",
+]
+resolver = "2"
